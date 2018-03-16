@@ -1,0 +1,185 @@
+#all {
+	width: 900px;
+	height: 600px;
+	margin: auto;
+	border: solid 0px;
+}
+
+body {
+	margin: 10px;
+}
+
+#picture {
+	width: 360px;
+	height: 360px;
+	border: solid 0px;
+	position: relative;
+	margin: auto;
+	margin-top: 25px;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	margin: 17px;
+}
+
+#Button {
+    margin: auto;
+    position: relative;
+    width: 87px;
+    height: 25px;
+    border: solid 0px;
+    text-align: center;
+}
+
+#replay {
+	width: 80px;
+	height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#reference {
+    background-image: url(panda.jpg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 127px;
+    background-size: 200px;
+    border: solid 1px green;
+}
+
+#d1, #d2 {
+	position: absolute;
+	width: 250px;
+	border: solid 0px;
+}
+#d2 {top: 410px;}
+
+#d1 {top: 380px;}
+
+#bd1, #bd2 {
+	width: 110px;
+	height:25px;
+}
+
+#winBlock {
+	width: 250px;
+	height: 30px;
+	border: solid 0px;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#step {
+    border: solid 0px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#s {
+    width: 40px;
+    text-align: center;
+}
+
+#p0, #p1, #p2, #p3, #p4, #p4, #p5, #p6, #p7, #p8,
+#p9, #p10, #p11, #p12, #p13, #p14 {
+	width: 88px;
+	height: 88px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	border: solid 1px gray;
+	background-image: url(panda.jpg);
+	transition-duration: 0.5s;
+}
+
+.cp0, .cp1, .cp2, .cp3 {top: 0px;}
+
+.cp4, .cp5, .cp6, .cp7 {top: 90px;}
+
+.cp8, .cp9, .cp10, .cp11 {top: 180px;}
+
+.cp12, .cp13, .cp14, .cp15 {top: 270px;}
+
+.cp0, .cp4, .cp8, .cp12 {left: 0px;}
+
+.cp1, .cp5, .cp9, .cp13 {left: 90px;}
+
+.cp2, .cp6, .cp10, .cp14 {left: 180px;}
+
+.cp3, .cp7, .cp11, .cp15 {left: 270px;}
+
+#p0 {
+	background-position: left top;
+}
+
+
+#p1 {
+	background-position: 35% top;
+}
+
+#p2 {
+	background-position: 66% top;
+}
+
+#p3 {
+	background-position: right top;
+}
+
+#p4 {
+	background-position: left 34%;
+}
+
+#p5 {
+	background-position: 35% 34%;
+}
+
+#p6 {
+	background-position: 66% 34%;
+}
+
+#p7 {
+	background-position: right 34%;
+}
+
+#p8 {
+	background-position: left 67%;
+}
+
+#p9 {
+	background-position: 35% 67%;
+}
+
+#p10 {
+	background-position: 66% 67%;
+}
+
+#p11 {
+	background-position: right 67%;
+}
+
+#p12 {
+	background-position: left bottom;
+}
+
+#p13 {
+	background-position: 35% bottom;
+}
+
+#p14 {
+	background-position: 66% bottom;
+}
+
+#p15 {
+	background-color: white;
+	transition-duration: 1s;
+}
+}
